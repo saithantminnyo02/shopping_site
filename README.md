@@ -11,7 +11,7 @@
 
 I created this website about year ago. I did all the backend and some frontend of the site. 
 In order to manipulate, you need to login in with admin account and go to admin dashboard.
-![alt text](https://github.com/saithantminnyo11/shopping_site/blob/master/public/profile_images/Screenshot%20(223).png)
+![screen shot](images/Screenshot%20(223).png)
 
 ## About Laravel
 
