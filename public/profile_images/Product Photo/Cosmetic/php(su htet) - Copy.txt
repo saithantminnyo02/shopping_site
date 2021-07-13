@@ -1,0 +1,246 @@
+DB::table('categories')->insert([
+            'name' => 'Cosmetic',
+            'created_at' => Carbon::now()
+        ]);
+
+DB::table('products')->insert([
+            'name' => 'Eyeshadow',
+            'description' => 'Play color eye maple road',
+            'quantity' =>10,
+            'price' =>24000,
+            'photo_name' => 'Cosmetic/1.jpg',
+            'created_at' => Carbon::now()
+        ]);
+DB::table('products')->insert([
+            'name' => 'Eyeshadow',
+            'description' => 'Play Color Eye Mini',
+            'quantity' =>20,
+            'price' =>25000,
+            'photo_name' => 'Cosmetic/2.jpg',
+            'created_at' => Carbon::now()
+        ]);
+DB::table('products')->insert([
+            'name' => 'Eyeshadow',
+            'description' => 'Cherry BLossom blusher',
+            'quantity' =>20,
+            'price' =>13000,
+            'photo_name' => 'Cosmetic/3.jpg',
+            'created_at' => Carbon::now()
+        ]);
+DB::table('products')->insert([
+            'name' => 'Eyeshadow',
+            'description' => 'Tulip day',
+            'quantity' =>10,
+            'price' =>20000,
+            'photo_name' => 'Cosmetic/4.jpg',
+            'created_at' => Carbon::now()
+        ]);
+DB::table('products')->insert([
+            'name' => 'Eyeshadow',
+            'description' => 'Maple Road',
+            'quantity' =>20,
+            'price' =>9000,
+            'photo_name' => 'Cosmetic/20.jpg',
+            'created_at' => Carbon::now()
+        ]);
+
+DB::table('products')->insert([
+            'name' => 'Mask',
+            'description' => 'Green Tea Vitalizing Mud Mask',
+            'quantity' =>15,
+            'price' =>2000,
+            'photo_name' => 'Cosmetic/5.jpg',
+            'created_at' => Carbon::now()
+        ]);
+DB::table('products')->insert([
+            'name' => 'Mask',
+            'description' => 'Calendula Soothing Mud Mask',
+            'quantity' =>15,
+            'price' =>2000,
+            'photo_name' => 'Cosmetic/6.jpg',
+            'created_at' => Carbon::now()
+        ]);
+DB::table('products')->insert([
+            'name' => 'Mask',
+            'description' => 'Aloe Collagen Mask',
+            'quantity' =>20,
+            'price' =>2000,
+            'photo_name' => 'Cosmetic/7.jpg',
+            'created_at' => Carbon::now()
+        ]);
+DB::table('products')->insert([
+            'name' => 'Mask',
+            'description' => 'Avocado Collagen Mask',
+            'quantity' =>20,
+            'price' =>2000,
+            'photo_name' => 'Cosmetic/8.jpg',
+            'created_at' => Carbon::now()
+        ]);
+DB::table('products')->insert([
+            'name' => 'Mask',
+            'description' => 'Blueberry Collagen Mask',
+            'quantity' =>20,
+            'price' =>2000,
+            'photo_name' => 'Cosmetic/9.jpg',
+            'created_at' => Carbon::now()
+        ]);
+DB::table('products')->insert([
+            'name' => 'Lipstick',
+            'description' => 'Shine chip lip lacquer',
+            'quantity' =>20,
+            'price' =>16000,
+            'photo_name' => 'Cosmetic/10.jpg',
+            'created_at' => Carbon::now()
+        ]);
+DB::table('products')->insert([
+            'name' => 'Lipstick',
+            'description' => 'Apieu water light tint',
+            'quantity' =>30,
+            'price' =>9000,
+            'photo_name' => 'Cosmetic/11.jpg',
+            'created_at' => Carbon::now()
+        ]);
+DB::table('products')->insert([
+            'name' => 'Lipstick',
+            'description' => 'Velvet lip tint',
+            'quantity' =>30,
+            'price' =>19500,
+            'photo_name' => 'Cosmetic/12.jpg',
+            'created_at' => Carbon::now()
+        ]);
+DB::table('products')->insert([
+            'name' => 'Lipstick',
+            'description' => 'Lilybyred mood liar velvet tint',
+            'quantity' =>20,
+            'price' =>10000,
+            'photo_name' => 'Cosmetic/13.jpg',
+            'created_at' => Carbon::now()
+        ]);
+DB::table('products')->insert([
+            'name' => 'Lipstick',
+            'description' => 'tattoo tint',
+            'quantity' =>25,
+            'price' =>15000,
+            'photo_name' => 'Cosmetic/14.jpg',
+            'created_at' => Carbon::now()
+        ]);
+DB::table('products')->insert([
+            'name' => 'Foundation',
+            'description' => 'Serum Foundation',
+            'quantity' =>25,
+            'price' =>19000,
+            'photo_name' => 'Cosmetic/15.jpg',
+            'created_at' => Carbon::now()
+        ]);
+DB::table('products')->insert([
+            'name' => 'Foundation',
+            'description' => 'Double lasting foundation',
+            'quantity' =>10,
+            'price' =>18500,
+            'photo_name' => 'Cosmetic/16.jpg',
+            'created_at' => Carbon::now()
+        ]);
+DB::table('products')->insert([
+            'name' => 'Foundation',
+            'description' => 'Double lasting cushion',
+            'quantity' =>15,
+            'price' =>28000,
+            'photo_name' => 'Cosmetic/17.jpg',
+            'created_at' => Carbon::now()
+        ]);
+DB::table('products')->insert([
+            'name' => 'Foundation',
+            'description' => 'Skin glow essence cushion',
+            'quantity' =>10,
+            'price' =>25500,
+            'photo_name' => 'Cosmetic/18.jpg',
+            'created_at' => Carbon::now()
+        ]);
+DB::table('products')->insert([
+            'name' => 'Foundation',
+            'description' => 'Laneige layering cushion',
+            'quantity' =>20,
+            'price' =>30000,
+            'photo_name' => 'Cosmetic/19.jpg',
+            'created_at' => Carbon::now()
+        ]);
+DB::table('products')->insert([
+            'name' => 'Mascara',
+            'description' => 'Maybelline',
+            'quantity' =>15,
+            'price' =>8000,
+            'photo_name' => 'Cosmetic/21.jpg',
+            'created_at' => Carbon::now()
+        ]);
+DB::table('products')->insert([
+            'name' => 'Mascara',
+            'description' => 'Novo',
+            'quantity' =>25,
+            'price' =>9000,
+            'photo_name' => 'Cosmetic/22.jpg',
+            'created_at' => Carbon::now()
+        ]);
+DB::table('products')->insert([
+            'name' => 'Mascara',
+            'description' => 'Beauty charm',
+            'quantity' =>10,
+            'price' =>12000,
+            'photo_name' => 'Cosmetic/23.jpg',
+            'created_at' => Carbon::now()
+        ]);
+DB::table('products')->insert([
+            'name' => 'Mascara',
+            'description' => 'Etude house',
+            'quantity' =>20,
+            'price' =>15000,
+            'photo_name' => 'Cosmetic/24.jpg',
+            'created_at' => Carbon::now()
+        ]);
+DB::table('products')->insert([
+            'name' => 'Mascara',
+            'description' => 'Loreal',
+            'quantity' =>10,
+            'price' => 13000,
+            'photo_name' => 'Cosmetic/25.jpg',
+            'created_at' => Carbon::now()
+        ]);
+DB::table('products')->insert([
+            'name' => 'Eyeliner',
+            'description' => 'NYX matte liquid',
+            'quantity' =>10,
+            'price' =>19000,
+            'photo_name' => 'Cosmetic/26.jpg',
+            'created_at' => Carbon::now()
+        ]);
+DB::table('products')->insert([
+            'name' => 'Eyeliner',
+            'description' => 'Retractable eyeliner',
+            'quantity' =>10,
+            'price' =>19000,
+            'photo_name' => 'Cosmetic/27.jpg',
+            'created_at' => Carbon::now()
+        ]);
+DB::table('products')->insert([
+            'name' => 'Eyeliner',
+            'description' => 'Matte liquid',
+            'quantity' =>10,
+            'price' =>21000,
+            'photo_name' => 'Cosmetic/28.jpg',
+            'created_at' => Carbon::now()
+        ]);
+DB::table('products')->insert([
+            'name' => 'Eyeliner',
+            'description' => 'Pencil Eyeliner',
+            'quantity' =>10,
+            'price' =>19000,
+            'photo_name' => 'Cosmetic/29.jpg',
+            'created_at' => Carbon::now()
+        ]);
+DB::table('products')->insert([
+            'name' => 'Eyeliner',
+            'description' => 'Pencil',
+            'quantity' =>10,
+            'price' =>18000,
+            'photo_name' => 'Cosmetic/30.jpeg',
+            'created_at' => Carbon::now()
+        ]);

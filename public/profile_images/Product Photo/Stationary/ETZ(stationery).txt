@@ -1,0 +1,234 @@
+DB::table('categoriese')->insert(['name'=> 'Stationery',
+				  'created-at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=> '2020 Monthly Planner Book',
+			       'description'=> '1 year planner with important dates',
+			       'quantity'=>'50',
+			       'price'=>'7500',
+			       'photo-name'=>'1.jpg',
+			       'created-at=>Carbon::now() ]);	
+
+
+DB::table('products')->insert(['name'=> 'Diary Notebook',
+			       'description'=> 'This notebook would be the perfect book for you to share and collect your memories',
+			       'quantity'=>'50',
+			       'price'=>'5500',
+			       'photo-name'=>'5.jpg',
+			       'created-at=>Carbon::now() ]);		
+
+DB::table('products')->insert(['name'=> 'Black Sketch Diary Notebook',
+			       'description'=> 'Ideal for writing,drawing and sketching & A very beautiful gift for yourself or your friends',
+			       'quantity'=>'50',
+			       'price'=>'6500',
+			       'photo-name'=>'4.jpg',
+			       'created-at=>Carbon::now() ]);	
+
+DB::table('products')->insert(['name'=> 'Foil Washi Tape',
+			       'description'=> 'To decorate your notebook',
+			       'quantity'=>'50',
+			       'price'=>'one pack for 4500',
+			       'photo-name'=>'8.jpg',
+			       'created-at=>Carbon::now() ]);	
+
+DB::table('products')->insert(['name'=> 'Glitter Pens',
+			       'description'=> 'To decorate your notebook',
+			       'quantity'=>'50',
+			       'price'=> '3500',
+			       'photo-name'=>'11.jpg',
+			       'created-at=>Carbon::now() ]);	
+
+DB::table('products')->insert(['name'=> '2020 Monthly Planner Book',
+			       'description'=> '1 year planner with important dates',
+			       'quantity'=>'50',
+			       'price'=>'7500',
+			       'photo-name'=>'2.jpg',
+			       'created-at=>Carbon::now() ]);	
+	
+
+DB::table('products')->insert(['name'=> 'Pastel Pens',
+			       'description'=> 'To decorate your notebook',
+			       'quantity'=>'50',
+			       'price'=> '3500',
+			       'photo-name'=>'12.jpg',
+			       'created-at=>Carbon::now() ]);	
+
+DB::table('products')->insert(['name'=> 'Diary Notebook',
+			       'description'=> 'This notebook would be the perfect book for you to share and collect your memories',
+			       'quantity'=>'30',
+			       'price'=>'5500',
+			       'photo-name'=>'6.jpg',
+			       'created-at=>Carbon::now() ]);
+
+DB::table('products')->insert(['name'=> 'Diary Notebook',
+			       'description'=> 'This notebook would be the perfect book for you to share and collect your memories',
+			       'quantity'=>'50',
+			       'price'=>'5500',
+			       'photo-name'=>'7.jpg',
+			       'created-at=>Carbon::now() ]);
+
+
+DB::table('products')->insert(['name'=> 'All Black Notebook',
+			       'description'=> 'Ideal for writing,drawing and sketching & A very beautiful gift for yourself or your friends',
+			       'quantity'=>'50',
+			       'price'=>'7000',
+			       'photo-name'=>'3.jpg',
+			       'created-at=>Carbon::now() ]);	
+
+DB::table('products')->insert(['name'=> 'Keychains',
+			       'description'=> 'keychain',
+			       'quantity'=>'50',
+			       'price'=> '1800',
+			       'photo-name'=>'13.jpg',
+			       'created-at=>Carbon::now() ]);	
+
+DB::table('products')->insert(['name'=> 'Keychains',
+			       'description'=> 'keychain',
+			       'quantity'=>'50',
+			       'price'=> '1800',
+			       'photo-name'=>'14.jpg',
+			       'created-at=>Carbon::now() ]);	
+
+DB::table('products')->insert(['name'=> 'Keychains',
+			       'description'=> 'keychain',
+			       'quantity'=>'50',
+			       'price'=> '1800',
+			       'photo-name'=>'15.jpg',
+			       'created-at=>Carbon::now() ]);	
+
+DB::table('products')->insert(['name'=> 'Keychains',
+			       'description'=> 'keychain',
+			       'quantity'=>'50',
+			       'price'=> '1800',
+			       'photo-name'=>'16.jpg',
+			       'created-at=>Carbon::now() ]);	
+
+DB::table('products')->insert(['name'=> 'Stationary Rack',
+			       'description'=> 'To decorate your notebook',
+			       'quantity'=>'50',
+			       'price'=> '18500',
+			       'photo-name'=>'17.jpg',
+			       'created-at=>Carbon::now() ]);	
+
+DB::table('products')->insert(['name'=> 'Stationary Rack',
+			       'description'=> 'To available space inside your store',
+			       'quantity'=>'50',
+			       'price'=> '18500',
+			       'photo-name'=>'18.jpg',
+			       'created-at=>Carbon::now() ]);	
+
+DB::table('products')->insert(['name'=> 'Stationary Rack',
+			       'description'=> 'To available space inside your store',
+			       'quantity'=>'50',
+			       'price'=> '18500',
+			       'photo-name'=>'19.jpg',
+			       'created-at=>Carbon::now() ]);	
+
+DB::table('products')->insert(['name'=> 'Ring Binder Notebook',
+			       'description'=> 'To collect and share your memories',
+			       'quantity'=>'50',
+			       'price'=> '5500',
+			       'photo-name'=>'20.jpg',
+			       'created-at=>Carbon::now() ]);	
+
+
+DB::table('products')->insert(['name'=> 'Ring Binder Notebook',
+			       'description'=> 'To collect and share your memories',
+			       'quantity'=>'50',
+			       'price'=> '5500',
+			       'photo-name'=>'21.jpg',
+			       'created-at=>Carbon::now() ]);	
+
+				
+DB::table('products')->insert(['name'=> 'Ring Binder Notebook',
+			       'description'=> 'To collect and share your memories',
+			       'quantity'=>'50',
+			       'price'=> '5500',
+			       'photo-name'=>'22.jpg',
+			       'created-at=>Carbon::now() ]);	
+
+				
+DB::table('products')->insert(['name'=> 'Stickers',
+			       'description'=> 'sticker',
+			       'quantity'=>'50',
+			       'price'=> '1000',
+			       'photo-name'=>'23.jpg',
+			       'created-at=>Carbon::now() ]);	
+
+	
+DB::table('products')->insert(['name'=> 'Stickers',
+			       'description'=> 'sticker',
+			       'quantity'=>'50',
+			       'price'=> '1000',
+			       'photo-name'=>'24.jpg',
+			       'created-at=>Carbon::now() ]);	
+
+				
+DB::table('products')->insert(['name'=> 'Stickers',
+			       'description'=> 'sticker',
+			       'quantity'=>'50',
+			       'price'=> '1000',
+			       'photo-name'=>'25.jpg',
+			       'created-at=>Carbon::now() ]);	
+
+							
+
+D
+DB::table('products')->insert(['name'=> 'Foil Washi Tape',
+			       'description'=> 'To decorate your notebook',
+			       'quantity'=>'50',
+			       'price'=>'one pack for 4500',
+			       'photo-name'=>'9.jpg',
+			       'created-at=>Carbon::now() ]);	
+
+				
+
+DB::table('products')->insert(['name'=> 'Foil Washi Tape',
+			       'description'=> 'To decorate your notebook',
+			       'quantity'=>'50',
+			       'price'=>'one pack for 4500',
+			       'photo-name'=>'10.jpg',
+			       'created-at=>Carbon::now() ]);	
+
+
+				
+DB::table('products')->insert(['name'=> 'Unicorn Wallet',
+			       'description'=> 'wallet',
+			       'quantity'=>'50',
+			       'price'=> '4000',
+			       'photo-name'=>'26.jpg',
+			       'created-at=>Carbon::now() ]);	
+
+				
+DB::table('products')->insert(['name'=> 'Unicorn Wallet',
+			       'description'=> 'wallet',
+			       'quantity'=>'50',
+			       'price'=> '4000',
+			       'photo-name'=>'27.jpg',
+			       'created-at=>Carbon::now() ]);	
+
+				
+DB::table('products')->insert(['name'=> 'Unicorn Wallet',
+			       'description'=> 'wallet',
+			       'quantity'=>'50',
+			       'price'=> '4000',
+			       'photo-name'=>'28.jpg',
+			       'created-at=>Carbon::now() ]);	
+
+				
+DB::table('products')->insert(['name'=> 'Cute Wallet',
+			       'description'=> 'wallet',
+			       'quantity'=>'50',
+			       'price'=> '3000',
+			       'photo-name'=>'29.jpg',
+			       'created-at=>Carbon::now() ]);	
+
+				
+DB::table('products')->insert(['name'=> 'Cute Wallet',
+			       'description'=> 'wallet',
+			       'quantity'=>'50',
+			       'price'=> '3000',
+			       'photo-name'=>'30.jpg',
+			       'created-at=>Carbon::now() ]);	
+
+				
+				

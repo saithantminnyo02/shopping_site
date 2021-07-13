@@ -1,0 +1,186 @@
+DB::table('categories')->insert(['name'=>'Clothes',
+'created_at'=> Carbon::now()]);
+
+////////////////////////////////////////////////////
+
+DB::table('products')->insert(['name'=>'Annava', 'description'=>'Butterfly Sleeve Top & Batik',
+'quantity'=>10,
+'price'=>20000,
+'photo_name'=>'clothes/annava/annava1.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Annava', 'description'=>'Printed Cotton Crop Top & Side Stripe Bell Pants',
+'quantity'=>10,
+'price'=>20000,
+'photo_name'=>'clothes/annava/annava2.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Annava', 'description'=>'Jet Khote Trench Coat Dress',
+'quantity'=>10,
+'price'=>18000,
+'photo_name'=>'clothes/annava/annava3.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Dress', 'description'=>'White Crop Top & Summer Dress',
+'quantity'=>5,
+'price'=>12000,
+'photo_name'=>'clothes/dress/dress1.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Dress', 'description'=>'Summer Dress',
+'quantity'=>7,
+'price'=>11000,
+'photo_name'=>'clothes/dress/dress2.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Dress', 'description'=>'Traditional Black Dress with Collar',
+'quantity'=>5,
+'price'=>14000,
+'photo_name'=>'clothes/dress/dress3.jpeg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Dress', 'description'=>'Traditional Black Dress',
+'quantity'=>8,
+'price'=>13000,
+'photo_name'=>'clothes/dress/dress4.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Hoodie', 'description'=>'Cloudy Woolly Hoodie',
+'quantity'=>10,
+'price'=>15000,
+'photo_name'=>'clothes/hoodie/hoodie1.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Hoodie', 'description'=>'Blue Hai',
+'quantity'=>10,
+'price'=>13000,
+'photo_name'=>'clothes/hoodie/hoodie2.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Hoodie', 'description'=>'Aesthetic Yellow Hoodie',
+'quantity'=>8,
+'price'=>16000,
+'photo_name'=>'clothes/hoodie/hoodie3.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Hoodie', 'description'=>'Old Navy',
+'quantity'=>10,
+'price'=>17000,
+'photo_name'=>'clothes/hoodie/hoodie4.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Hoodie', 'description'=>'Simple Pullover Hoodie',
+'quantity'=>10,
+'price'=>18000,
+'photo_name'=>'clothes/hoodie/hoodie5.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Hoodie', 'description'=>'Snow Flake Pattern',
+'quantity'=>10,
+'price'=>18000,
+'photo_name'=>'clothes/hoodie/hoodie6.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Shirt', 'description'=>'Aesthetic Pink Long Sleeve',
+'quantity'=>7,
+'price'=>8000,
+'photo_name'=>'clothes/shirt/shirt1.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Shirt', 'description'=>'Comfortable Shirt',
+'quantity'=>10,
+'price'=>10000,
+'photo_name'=>'clothes/shirt/shirt2.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Shirt', 'description'=>'Simple Top with Lines',
+'quantity'=>10,
+'price'=>11000,
+'photo_name'=>'clothes/shirt/shirt3.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Shirt', 'description'=>'Blue & Yellow Lines',
+'quantity'=>10,
+'price'=>10000,
+'photo_name'=>'clothes/shirt/shirt4.jpeg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Shirt', 'description'=>'Plaid Shirt',
+'quantity'=>8,
+'price'=>13000,
+'photo_name'=>'clothes/shirt/shirt5.jpeg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Shirt', 'description'=>'French Toast School Wear',
+'quantity'=>15,
+'price'=>12000,
+'photo_name'=>'clothes/shirt/shirt6.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Shirt', 'description'=>'Disney Hawaii Shirt',
+'quantity'=>10,
+'price'=>12000,
+'photo_name'=>'clothes/shirt/shirt7.jpeg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Skirt', 'description'=>'Hearty Heart',
+'quantity'=>5,
+'price'=>10000,
+'photo_name'=>'clothes/skirt/skirt1.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Skirt', 'description'=>'Plaid Mini Skirt',
+'quantity'=>10,
+'price'=>9000,
+'photo_name'=>'clothes/skirt/skirt2.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Skirt', 'description'=>'Jean Short Skirt',
+'quantity'=>8,
+'price'=>12000,
+'photo_name'=>'clothes/skirt/skirt3.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Skirt', 'description'=>'Pleated Long Skirt',
+'quantity'=>7,
+'price'=>10500,
+'photo_name'=>'clothes/skirt/skirt4.jpeg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Trousers', 'description'=>'Slim Fit Trousers',
+'quantity'=>10,
+'price'=>11000,
+'photo_name'=>'clothes/trousers/trousers1.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Trousers', 'description'=>'Joggers',
+'quantity'=>15,
+'price'=>10000,
+'photo_name'=>'clothes/trousers/trousers2.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Trousers', 'description'=>'Casual Trousers',
+'quantity'=>10,
+'price'=>20000,
+'photo_name'=>'clothes/trousers/trousers3.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Trousers', 'description'=>'Film Avenue Check Trousers',
+'quantity'=>12,
+'price'=>14000,
+'photo_name'=>'clothes/trousers/trousers4.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Trousers', 'description'=>'Casual Harem Pants',
+'quantity'=>10,
+'price'=>10000,
+'photo_name'=>'clothes/trousers/trousers5.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Trousers', 'description'=>'Jumpsuit Strap Dungaree Harem Trousers',
+'quantity'=>10,
+'price'=>13000,
+'photo_name'=>'clothes/trousers/trousers6.jpg',
+'created_at'=> Carbon::now()]);
+
+

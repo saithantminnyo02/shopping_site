@@ -1,0 +1,95 @@
+DB::table('categories')->insert(['name'=>'Shoes',
+'created_at'=> Carbon::now()]);
+
+////////////////////////////////////////////////////
+
+DB::table('products')->insert(['name'=>'Adidas', 'description'=>'Alphabounce Instinct CC',
+'quantity'=>10,
+'price'=>196000,
+'photo_name'=>'shoes/adidas/Alphabounce Instinct CC.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Adidas', 'description'=>'Crazychaos Shoes',
+'quantity'=>10,
+'price'=>148500,
+'photo_name'=>'shoes/adidas/Crazychaos Shoes.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Adidas', 'description'=>'Ultraboost 20',
+'quantity'=>10,
+'price'=>325000,
+'photo_name'=>'shoes/adidas/Ultraboost 20.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Adidas', 'description'=>'adidas Nova Run',
+'quantity'=>10,
+'price'=>173400,
+'photo_name'=>'shoes/adidas/adidas Nova Run.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Adidas', 'description'=>'Alphabounce RC 2s',
+'quantity'=>7,
+'price'=>158400,
+'photo_name'=>'shoes/adidas/Alphabounce RC 2.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Nike', 'description'=>'Nike M2k Tekno',
+'quantity'=>5,
+'price'=>21000,
+'photo_name'=>'shoes/nike/Nike M2k Tekno.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Nike', 'description'=>'Air Force 1',
+'quantity'=>8,
+'price'=>285000,
+'photo_name'=>'shoes/nike/Air Force 1.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Nike', 'description'=>'Airmax 90 CNY',
+'quantity'=>10,
+'price'=>92000,
+'photo_name'=>'shoes/nike/Airmax 90 CNY.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Nike', 'description'=>'Nike Lunarcharge',
+'quantity'=>10,
+'price'=>78000,
+'photo_name'=>'shoes/nike/Nike Lunarcharge.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Nike', 'description'=>'Nike Air SPAN II',
+'quantity'=>10,
+'price'=>115000,
+'photo_name'=>'shoes/nike/Nike Air SPAN II.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Puma', 'description'=>'2020 Style Rider',
+'quantity'=>10,
+'price'=>209900,
+'photo_name'=>'shoes/puma/2020 Style Rider.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Puma', 'description'=>'Zone XT',
+'quantity'=>10,
+'price'=>189900,
+'photo_name'=>'shoes/puma/Zone XT.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Puma', 'description'=>'Hybrid',
+'quantity'=>10,
+'price'=>249900,
+'photo_name'=>'shoes/puma/Hybrid.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Puma', 'description'=>'LQDCELL Tension Rave men's training shoe',
+'quantity'=>7,
+'price'=>209900,
+'photo_name'=>'shoes/puma/LQDCELL Tension Rave men's training shoe.jpg',
+'created_at'=> Carbon::now()]);
+
+DB::table('products')->insert(['name'=>'Puma', 'description'=>'Run & Train',
+'quantity'=>10,
+'price'=>17700,
+'photo_name'=>'shoes/puma/Run & Train.jpg',
+'created_at'=> Carbon::now()]);
+
