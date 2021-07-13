@@ -9,13 +9,11 @@
 
 ## Shopping Site
 
-I created this website about year ago. I did all the backend and some frontend of the site. 
-In order to manipulate, you need to login in with admin account and go to admin dashboard.
-<<<<<<< HEAD
-![screen shot](images/Screenshot%20(223).png)
-=======
-![alt text](https://github.com/saithantminnyo11/shopping_site/blob/master/public/profile_images/Screenshot%20(223).png?raw=true "Title")
->>>>>>> fd9254de2c4dbb3a27acb1ef9df76de8be5d8d71
+I created this website about a year ago. I did all the backend and some frontend of the site. 
+In order to manipulate, you need to login in with an admin account and go to the admin dashboard. Admin can create product, category, user and role and also can edit and delete.
+User can view, buy the products and can also add to cart.
+In payment, user can buy with card or cash. I used stripe payment gateway for card payment. 
+
 
 ## About Laravel
 
